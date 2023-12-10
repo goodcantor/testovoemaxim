@@ -41,7 +41,7 @@ function handleSubmit(event) {
 
   redirectUrl.search = searchParams.toString();
 
-  // window.location.href = redirectUrl.href;
+  window.location.href = redirectUrl.href;
   console.log(redirectUrl.href);
 }
 
